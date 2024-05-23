@@ -1,0 +1,66 @@
+body {
+	background-image: url("quiz3background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #4f98c2;
+}
+
+.panel {
+	margin-top: 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: rgb(210, 124, 25);
+}
+
+.question {
+	text-align: center;
+	font-size: 30px;
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+.options {
+	font-size: 20px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+button {
+	margin-right: 75px;
+	margin-top: 8%;
+	font-size: 20px;
+	padding: 10px 20px;
+	background-color: #dc4196;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 30px;
+}
+
+button:hover {
+	color: #4f98c2;
+	background-color: white;
+	border: 1 px solid #4f98c2;
+}
+
+#score {
+	font-size: 30px;
+	color: darkslategray;
+}
+
+#timer {
+	/* Style the timer container */
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+  }
+
+#time-left {
+	/* Style the displayed timer value */
+	color: red;
+  }
